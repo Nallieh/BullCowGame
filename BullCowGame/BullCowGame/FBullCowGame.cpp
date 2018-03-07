@@ -15,7 +15,7 @@ void FBullCowGame::Reset()
 {
 	MyCurrentTry = 1;
 	bGameIsWon = false;
-	const FString HIDDEN_WORD = "potatis"; // This MUST be an isogram (no repeating letters)
+	const FString HIDDEN_WORD = "korv"; // This MUST be an isogram (no repeating letters)
 	MyHiddenWord = HIDDEN_WORD;
 	return;
 }
